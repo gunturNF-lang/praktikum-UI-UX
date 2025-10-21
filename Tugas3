@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout</title>
+</head>
+<body>
+    <div style="border: 1px solid #ccc; padding: 10px; overflow: hidden;">
+        <div style="font-weight: bold; margin-bottom: 10px;">Guntur Dwi Satriawan - 0110225068</div>
+
+        <img src="download.jpg" 
+             alt="Foto Profil Spongebob"
+             style="float: left; width: 20%; margin-right: 5%;">
+
+        <table style="float: left; width: 50%;">
+            <tbody>
+                <tr>
+                    <td><h1>Spongebob</h1></td>
+                </tr>
+                <tr>
+                    <td>Kp Arman street</td>
+                </tr>
+                <tr>
+                    <td>Depok, Jawa Barat</td>
+                </tr>
+                <tr>
+                    <td>Email : guntur15arman@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Telephone : 081292613568</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div style="float: right; text-align: right; margin-right: 2%; width: 20%;">
+            <h4><b>Categories</b></h4>
+            <p>kartun<br>film<br>Guntur</p>
+        </div>
+
+        <br style="clear: both;">
+
+        <article style="padding-top: 5%;"> <section>
+                SpongeBob SquarePants adalah serial animasi Amerika yang dibuat oleh Stephen Hillenburg,
+                 seorang ahli biologi kelautan dan animator. Serial ini pertama kali tayang di Nickelodeon pada 1 Mei 1999,
+                  dan menceritakan kehidupan seekor spons laut yang optimis dan ceria bernama SpongeBob di kota bawah laut, Bikini Bottom.
+            </section>
+
+            <section style="padding-top: 2%;">
+               SpongeBob SquarePants berasal dari Amerika Serikat, dibuat oleh ahli biologi laut dan animator Stephen Hillenburg untuk Nickelodeon. 
+               SpongeBob sangat populer di televisi, terutama di Amerika Serikat (dan kini di seluruh dunia),
+                dan telah menjadi karakter yang dikenal luas di berbagai platform, termasuk film, merchandise, dan media sosial seperti Instagram dan TikTok.
+            </section>
+        </article>
+
+        <br>
+
+        <iframe src="https://youtu.be/xRfwXBitjc8?si=zrybXCHQ_FmU2giL"
+                width="20%" 
+                style="float: left; margin-top: 1%; border: 0;"
+                allowfullscreen></iframe>
+
+        <div style="float: right; width: 15%; margin-top: 1%; margin-right: 2%; border: 1px solid #ccc; padding: 5px;">
+            <b style="font-size: 1.1em;">Social Media</b><br>
+            <a href="https://www.instagram.com/gnturrr.15?igsh=c3hrcnJsczNtdGly">Instagram</a><br>
+            <a href="https://youtube.com" target="_blank">Youtube</a><br>
+            <a href="https://tiktok.com" target="_blank">Tiktok</a><br>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+
+        <br style="clear: both;">
+
+        <div style="width: 20%; margin-left: auto; margin-right: auto; margin-top: 2%; border: 1px solid #ccc; padding: 10px;">
+            <div style="text-align: center;">
+                <img src="download.jpg" alt="Gambar Spongebob di galeri" width="40%">
+                 <img src="download.jpg" alt="Gambar Spongebob di galeri" width="40%">
+                  <img src="download.jpg" alt="Gambar Spongebob di galeri" width="40%">
+                   <img src="download.jpg" alt="Gambar Spongebob di galeri" width="40%">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
