@@ -1,0 +1,100 @@
+body {
+    background-color: bisque;
+}
+#header {
+    background-color: lightcoral;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+blockquote {
+    font-size: larger;
+    font-family: bold italic;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: yellow;
+}
+a {
+    text-align: center;
+    color: brown;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.gambar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+#pertama::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0047ab;
+}
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#profil {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+a[name="profil"] {
+    text-align: justify;
+    color: black;
+}
+#beternak {
+    color: brown;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cara {
+    list-style: none;
+    color:black;
+}
+.koleksi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    justify-items: center;
+    align-items: center;
+
+    & img {
+        width: 200px;
+    }
+
+}
+#harga {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+    color: bisque;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#nomor {
+    color: brown;
+    text-align: center;
+}
+#belanja {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    & a {
+        color: blue;
+    }
+}
