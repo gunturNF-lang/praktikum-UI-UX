@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+</head>
+<body>
+    <form style="background-color: rgb(254, 222, 222); width: 600px;">
+        <fieldset>
+            <legend>Kurs Rupiah - Mata Uang Asing</legend>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Masukkan Nilai</th>
+                        <th>Valas</th>
+                        <th>Nilai Rupiah</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><input type="number" id="uang"></td>
+                        <td>
+                            <select id="valas">
+                                <option value="usd">USD - Dollar US</option>
+                                <option value="sgd">SGD - Dollar Singapore</option>
+                                <option value="myr">MYR - Ringgit Malaysia</option>
+                                <option value="jpy">JPY - Yen Jepang</option>
+                                <option value="eur">EUR - Euro</option>
+                                <option value="sar">SAR - Riyal Arab Saudi</option>
+                            </select>
+                        </td>
+                        <td><input type="text" id="hasil" readonly></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+
+    <script>
+        // Kurs terbaru yang kamu berikan
+        const kurs = {
+            usd: 9915,   // Dollar US
+            sgd: 13472,  // Dollar Singapore
+            myr: 874,    // Ringgit Malaysia
+            jpy: 120,    // Yen Jepang
+            eur: 15888,  // Euro
+            sar: 3592    // Riyal Arab Saudi
+        };
+
+        document.getElementById("valas").addEventListener("change", hitung);
+        document.getElementById("uang").addEventListener("input", hitung);
+
+        function hitung() {
+            let nilai = parseFloat(document.getElementById("uang").value) || 0;
+            let jenis = document.getElementById("valas").value;
+
+            let hasil = nilai * kurs[jenis];
+            document.getElementById("hasil").value = hasil.toLocaleString("id-ID");
+        }
+    </script>
+</body>
+</html>
